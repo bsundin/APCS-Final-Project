@@ -1,18 +1,15 @@
 package org.sunbe85;
 
+import org.sunbe85.classes.AWTTest1;
 import org.sunbe85.interfaces.Test1;
+
+import java.awt.*;
+import static java.lang.Character.*;
 
 import static java.lang.System.*;
 
-public class Main implements Test1 {
+public class Main {
     public static void main(String[] args) {
-        out.println("Hello World!");
-        Main test = new Main();
-        test.printTest("test1");
-    }
-
-    @Override
-    public void printTest(String prtTst) {
-        out.println(prtTst);
+        AWTTest1 f = new AWTTest1();
     }
 }
