@@ -1,9 +1,16 @@
 package org.sunbe85.classes;
 
 import java.awt.*;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 public class AWTTest1 extends Frame {
     public AWTTest1() {
+        addWindowListener (new WindowAdapter() {
+            public void windowClosing (WindowEvent e) {
+                dispose();
+            }
+        });
         Button b = new Button("Click Me!!");
 
         // setting button position on screen
@@ -16,7 +23,7 @@ public class AWTTest1 extends Frame {
         setSize(300,300);
 
         // setting the title of Frame
-        setTitle("This is our basic AWT example");
+        setTitle("This is the basic AWT example");
 
         // no layout manager
         setLayout(null);

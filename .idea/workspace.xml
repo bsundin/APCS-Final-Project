@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b527da6-9e9d-4539-9676-28679e892016" name="Changes" comment="Second Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sunbe85/classes/AWTTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="6b527da6-9e9d-4539-9676-28679e892016" name="Changes" comment="AWT test 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sunbe85/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sunbe85/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sunbe85/classes/AWTTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sunbe85/classes/AWTTest1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,8 +86,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.APCS-Final-Project [jar]">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.sunbe85.Main" />
       <module name="APCS-Final-Project.main" />
       <extension name="coverage">
@@ -149,7 +146,6 @@
       <list>
         <item itemvalue="Gradle.APCS-Final-Project [jar]" />
         <item itemvalue="Gradle.APCS-Final-Project [init]" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678221805728</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="AWT test 1">
+      <created>1678227284050</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678227284050</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +196,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="Second Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
+    <MESSAGE value="AWT test 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="AWT test 1" />
   </component>
 </project>
