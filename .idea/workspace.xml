@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b527da6-9e9d-4539-9676-28679e892016" name="Changes" comment="AWT test 1">
+    <list default="true" id="6b527da6-9e9d-4539-9676-28679e892016" name="Changes" comment="Add window close listener">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sunbe85/classes/FullScreenFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sunbe85/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sunbe85/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sunbe85/classes/AWTTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sunbe85/classes/AWTTest1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678227284050</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add window close listener">
+      <created>1678307418682</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678307418682</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +206,7 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="Second Commit" />
     <MESSAGE value="AWT test 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="AWT test 1" />
+    <MESSAGE value="Add window close listener" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add window close listener" />
   </component>
 </project>

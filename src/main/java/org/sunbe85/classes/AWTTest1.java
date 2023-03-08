@@ -6,11 +6,11 @@ import java.awt.event.WindowEvent;
 
 public class AWTTest1 extends Frame {
     public AWTTest1() {
-        addWindowListener (new WindowAdapter() {
-            public void windowClosing (WindowEvent e) {
-                dispose();
-            }
-        });
+//        addWindowListener (new WindowAdapter() {
+//            public void windowClosing (WindowEvent e) {
+//                dispose();
+//            }
+//        });
         Button b = new Button("Click Me!!");
 
         // setting button position on screen
@@ -20,7 +20,8 @@ public class AWTTest1 extends Frame {
         add(b);
 
         // frame size 300 width and 300 height
-        setSize(300,300);
+        setSize(1920,1080);
+        setAlwaysOnTop(true);
 
         // setting the title of Frame
         setTitle("This is the basic AWT example");
